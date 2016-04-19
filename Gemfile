@@ -35,3 +35,7 @@ group :development do
 end
 
 gem 'actionpack-xml_parser'
+
+group :production do
+  gem 'puma'
+end
